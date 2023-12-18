@@ -1,0 +1,28 @@
+<div class="container mt-4">
+    <form id="productForm">
+        <!-- Product Description -->
+        <div class="mb-3">
+            <label for="description" class="form-label">Product Description</label>
+            <input type="text" class="form-control" id="description" placeholder="Enter product description" required>
+        </div>
+        <!-- Product Price -->
+        <div class="mb-3">
+            <label for="price" class="form-label">Product Price</label>
+            <input type="number" class="form-control" id="price" placeholder="Enter product price" required>
+        </div>
+        <!-- Product Category -->
+        <div class="mb-3" id="catDiv" style="position: relative">
+            <label for="categoryDropdown" class="form-label">Product Category</label>
+            <select id="categoryDropdown" class="form-control">
+                <option value="" disabled selected>Select a category</option>
+            </select>
+        </div>
+        <!-- Product Sub-Category -->
+        <div class="mb-3" id="subCatDiv" style="position: relative">
+            <label for="subCategoryDropdown" class="form-label">Product Sub-Category</label>
+            <select id="subCategoryDropdown" class="form-control">
+                <option value="" disabled selected>Select a sub-category</option>
+            </select>
+        </div>
+    </form>
+</div>
